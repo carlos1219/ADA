@@ -1,0 +1,149 @@
+with Text_IO;
+procedure Main is
+   
+   procedure ejercicio1 is
+      package Natural_IO is new Text_IO.Integer_IO(Natural);
+      n:natural;
+      
+   begin
+      Text_IO.Put_Line("Ejercicio1");
+      Text_IO.Put_Line("dato");
+      Natural_IO.get(n);
+      Natural_IO.put(n);
+      Text_IO.Put_Line("---------");
+   end ejercicio1;
+   
+   procedure ejercicio2 is
+      subtype nota is Integer range 0..10;
+      package Nota_IO is new Text_IO.Integer_IO(nota);
+      n:nota;
+   begin
+      --Me permite hacer asignaciones con un nuevo integer si este integer tuviera un valor entre 0 y 10 si no expota
+      Text_IO.Put_Line("Ejercicio2");
+      Text_IO.Put_Line("nota");
+      Nota_IO.get(n);
+      Nota_IO.put(n);
+     Text_IO.Put_Line("---------");  
+      
+   end ejercicio2;
+   procedure ejercicio3 is
+      type dia is (lunes, martes ,miercoles,jueves,viernes,sabado,domingo);
+      subtype dialaboral is dia range lunes..viernes;
+      d2:dialaboral;
+      d:dia;
+      begin
+         Text_IO.Put_Line("Ejercicio3");
+         d2:=jueves;
+         d:=sabado;
+         --d2=d; se puede asignar ya que es subtipo del mismo tipo
+         Text_IO.Put_Line("---------"); 
+   end ejercicio3;   
+    
+   
+   procedure ejercicio4 is
+      type probabilidad is New Float range 0.0..1.0;
+      p:probabilidad;
+      var:Float;
+      
+      begin
+         Text_IO.Put_Line("Ejercicio4");
+         p:=0.3;
+         var:=0.5;
+         -- Estas dos no se pueden igualar ya que son dos tipos diferentes
+         Text_IO.Put_Line("---------"); 
+   end ejercicio4;
+    procedure ejercicio5 is
+      type prob is digits 2 range 0.0..1.0;
+      p:prob;
+   begin
+      --  Insert code here.
+      Text_IO.Put_Line("Ejercicio 5");
+      p:=0.36;
+      Text_IO.Put_Line("-----------");
+   end ejercicio5;
+   
+   procedure ejercicio6 is
+      cad:String(1..50);
+      elementos:Integer;
+      var:Float;
+      
+      begin
+         Text_IO.Put_Line("Ejercicio6");
+         Text_IO.Put_Line("Dato");
+      Text_IO.Get_Line(cad,elementos);
+      var:=2.0*Float'Value(cad(1..elementos));
+      Text_IO.Put_Line("Resultado" &var'Img);
+        Text_IO.Put_Line("Resultado" &Float'Image(var));
+         Text_IO.Put_Line("---------"); 
+   end ejercicio6;
+   
+   procedure ejercicio7 is
+      type dia is (lunes, martes, miércoles, jueves, viernes, sábado, domingo);
+      d:dia;
+   begin
+      --  Insert code here.
+      Text_IO.Put_Line("Ejercicio 7");
+      d:=dia'First;
+      loop
+         Text_IO.Put_Line(dia'Image(d));
+         exit when d=dia'Last;
+         d:=dia'Succ(d);
+      end loop;
+      Text_IO.Put_Line("-----------");
+   end ejercicio7;
+   
+    procedure ejercicio8 is
+      suma:Integer:=0;
+      i:Integer;
+   begin
+      --  Insert code here.
+      Text_IO.Put_Line("Ejercicio 8");
+      i:=0;
+      while i<=100 loop
+         suma:=suma+i;
+         i:=i+2;
+      end loop;
+      Text_IO.Put_Line("Suma pares hasta 100="&Integer'Image(suma));
+      Text_IO.Put_Line("-----------");
+   end ejercicio8;
+   
+      procedure ejercicio9 is
+      p:Integer;
+      
+      begin
+         Text_IO.Put_Line("Ejercicio9");
+      p:=36;
+      
+      if p mod 2/=0 then
+         Text_IO.Put_Line("impar");
+      else
+         Text_IO.Put_Line("par");
+      end if;
+        
+         Text_IO.Put_Line("---------"); 
+   end ejercicio9;
+   
+    procedure ejercicio10 is
+      a,z:Character;
+  begin
+      --  Insert code here.
+      Text_IO.Put_Line("Ejercicio 10");
+      a:='a';
+      z:='z';
+      for i in a..z loop
+         Text_IO.Put(i);
+      end loop;
+      Text_IO.New_Line;
+      Text_IO.Put_Line("-----------");
+  end ejercicio10;1
+    
+
+begin
+   null;
+   ejercicio1;
+   ejercicio2;
+   ejercicio3;
+   ejercicio4;
+   ejercicio6;
+   ejercicio9;
+end Main;
