@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\practicafinal.gpr
+20221204110712 a2e9e169e8748f7b2e089ef676e1c533
+[BOUND OBJECT FILES]
+C:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\obj\reactor_p.o
+C:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\obj\compuerta_p.o
+C:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\obj\muestreo_p.o
+C:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\obj\
+-LC:\Users\34654\Desktop\MIGUEL 2022\Universidad\3er curso\Programacion avanzada\ada\practicafinalada\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

@@ -1,0 +1,1 @@
+control.adb:18:16: warning: potentially blocking operation in protected operation [enabled by default]

@@ -1,0 +1,144 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U muestreo_p%b		muestreo_p.adb		53e436ea NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U muestreo_p%s		muestreo_p.ads		61f514df EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W reactor_p%s		reactor_p.adb		reactor_p.ali
+W system%s		system.ads		system.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-rttiev.ads		20210520051128 22f35a33 ada.real_time.timing_events%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D muestreo_p.ads	20221205191710 b9bd6862 muestreo_p%s
+D muestreo_p.adb	20221212173520 ea595e88 muestreo_p%b
+D reactor_p.ads		20221205184948 f6b34371 reactor_p%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [iniciar muestreo_p__muestreo 12 17 none]
+G c Z s b [leer muestreo_p__muestreo 13 13 none]
+G c Z s b [timer muestreo_p__muestreo 14 17 none]
+G c Z s b [muestreo__iniciarN muestreo_p 12 7 none]
+G c Z s b [muestreo__iniciarP muestreo_p 12 7 none]
+G c Z s b [muestreo__timerN muestreo_p 14 7 none]
+G c Z s b [muestreo__timerP muestreo_p 14 7 none]
+G c Z s s [muestreoVDI muestreo_p 10 4 none]
+G c Z s s [muestreoVDF muestreo_p 10 4 none]
+G c Z s s [muestreoVIP muestreo_p 10 4 none]
+G c Z s s [P3sIP muestreo_p 13 7 none]
+G r p none [leer muestreo_p__muestreo 13 13 none] [muestreo reactor_p__reactor 3 16 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|2r6 3r5 4r6 5r5 14r38 18r22 18r47 19r28 20r16 19|10r10 24r39
+. 31r10
+X 5 a-reatim.ads
+39K13*Real_Time 185e18 18|2w10 3r9 4r10 5r9 14r42 18r26 18r51 19r32 20r20
+. 19|10r14 24r43 31r14
+49O9*Time<duration> 18|20r30
+54O9*Time_Span<duration> 18|18r36
+61V13*Clock{49O9} 19|8s20
+65V14*"+"{49O9} 19|8s26 30s30
+119V13*Milliseconds{54O9} 18|18s61
+X 6 a-rttiev.ads
+38K23*Timing_Events 81e32 18|4w20 14r52 19r42 19|10r24 24r53 31r24
+40R9*Timing_Event<3|50R9> 75e14 18|14r66 19r56 19|24r67
+45U14*Set_Handler 19|10s38 31s38
+X 18 muestreo_p.ads
+9K9*muestreo_p 22l5 22e15 19|1b14 35l5 35t15
+10W19*muestreo 10d29 16E7 21l8 21e16 19|2b19 34l8 34t16
+12U17 iniciar 19|4b17 11l11 11t18
+13Y13 leer 13<18 19|14b13 20l11 20t15
+13i18 dato{integer} 19|18m10
+14U17 Timer 14=23 19|10r82 24b17 31r82 32l11 32t16
+14r23 event{6|40R9} 19|24b24
+16b7 datoDisponible{boolean} 19|6r10 15r14 19r10 28r10
+17i7 dato{integer}
+18o7 entradaPeriodo{5|54O9} 19|8r28 30r32
+19r7 entradaJitterControl{6|40R9} 19|10r50 31r50
+20o7 nextTime{5|49O9} 19|8r10 10r72 30r10 30r21 31r72
+X 19 muestreo_p.adb
+14i18 dato{integer}
+X 20 reactor_p.ads
+1K9*reactor_p 18|7w6 8r5 20|9e14
+2W19*reactor 18|10r39 20|8e15
+3V16 muestreo{integer} 19|18s18
+X 21 system.ads
+37K9*System 18|1w6 11r34 21|193e11
+100I12*Any_Priority{integer}
+102I12*Interrupt_Priority{100I12} 18|11r41
+X 34 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 49 text_io.ads
+24K9*Text_IO=24:29 18|6w6
+
